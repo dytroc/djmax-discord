@@ -68,6 +68,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: ${{ matrix.asset_name }}
+          tag_name: 0.1.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   
