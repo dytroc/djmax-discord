@@ -1,0 +1,12 @@
+[package]
+name = "djmax-discord"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = { version = "0.35.0", features = ["persistence"] }
+notify-rust = "4.18.0"
+reqwest = { version = "0.13.4", features = ["json", "blocking"] }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.150"
+strum = { version = "0.28.0", features = ["derive"] }
